@@ -187,19 +187,19 @@
              console.log(x);
 
              if (x.includes("Norte")) {
-               $(".Norte").show(1000);
-               $(".Central, .Sur, .Austral").hide(1000)
+               $(".Norte").show();
+               $(".Central, .Sur, .Austral").hide()
              } else if (x.includes("Central")) {
-               $(".Central").show(1000)
-               $(".Norte, .Sur, .Austral").hide(1000)
+               $(".Central").show()
+               $(".Norte, .Sur, .Austral").hide()
              } else if (x.includes("Sur")) {
-               $(".Sur").show(1000);
-               $(".Norte, .Central, .Austral").hide(1000)
+               $(".Sur").show();
+               $(".Norte, .Central, .Austral").hide()
              } else if (x.includes("Austral")) {
-               $(".Austral").show(1000);
-               $(".Norte, .Central, .Sur").hide(1000)
+               $(".Austral").show();
+               $(".Norte, .Central, .Sur").hide()
              } else {
-               $(".Norte, .Central, .Sur, .Austral").show(1000)
+               $(".Norte, .Central, .Sur, .Austral").show()
              }
            }
 
